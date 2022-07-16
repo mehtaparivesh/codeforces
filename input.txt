@@ -1,1 +1,2 @@
-abaaaaaabaaaabbabbaaabbbbabababaaaaabbaabbaaaaabbbaababaaaaaaabbbbbaaaaabaababbabababbabbbbaabbaabbabbbabaabbaabbaaaaaab
+100000 1
+300 400
