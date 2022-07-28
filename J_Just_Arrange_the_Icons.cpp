@@ -83,7 +83,7 @@ int main(int argc, char const *argv[])
         ll n;
         cin >> n;
         vi v(n);
-        mp<ll, ll> m;
+        ump<ll, ll> m;
         ll g = 1;
         for (auto &it : v)
         {
@@ -94,14 +94,40 @@ int main(int argc, char const *argv[])
             m[x]++;
             g = __gcd(g, x);
         }
+        ll minf = INT_MAX;
+        for (auto [key, value] : m)
+        {
+            minf = min(minf, value);
+        }
 
         if (g > 1)
             cout << g << endl;
         else
         {
+            ll ans = LONG_MAX;
 
-                 
+            loop(i, 1, minf + 1)
+            {
+                ll screens = 0;
 
+                for (auto &[key, freq] : m)
+                {
+                    ll minScreensRequired = freq / i;
+                    if (freq % i)
+                        minScreensRequired++;
+                    ll minIconsRequired = minScreensRequired * (i - 1);
+
+                    if (freq < minIconsRequired)
+                    {
+                        screens = LONG_MAX;
+                        break;
+                    }
+                    screens += minScreensRequired;
+                }
+
+                ans = min(ans, screens);
+            }
+            cout << ans << endl;
         }
     }
     return 0;
