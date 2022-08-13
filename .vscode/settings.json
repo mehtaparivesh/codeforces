@@ -3,6 +3,8 @@
         "*.ejs": "html",
         "*.jsx": "javascriptreact",
         "*.js": "javascriptreact",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "initializer_list": "cpp",
+        "valarray": "cpp"
     }
 }

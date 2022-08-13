@@ -75,64 +75,31 @@ void file_i_o()
 int main(int argc, char const *argv[])
 {
     file_i_o();
-    ll n;
-    cin >> n;
-    vi v(n);
-    for (auto &it : v)
-        cin >> it;
+    ll n, m;
+    cin >> n >> m;
+    ld ans = 0.0;
+    while (m--)
+    {
 
-    vi factors(15000000 + 1);
-    for (int i = 1; i < factors.size(); i++)
-    {
-        factors[i] = i;
-    }
-    for (int i = 2; i * i < factors.size(); i++)
-    {
-        if (factors[i] == i)
-        {
-            for (int j = i * i; j < factors.size(); j += i)
-            {
-                if (factors[j] == j)
-                    factors[j] = i;
-            }
-        }
-    }
-
-    ll g = v[0];
-    for (auto it : v)
-        g = __gcd(it, g);
-    ll flag = false;
-    for (int i = 0; i < v.size(); i++)
-    {
-        v[i] /= g;
-        if (v[i] > 1)
-            flag = true;
-    }
-    if (flag == false)
-    {
-        cout << -1 << endl;
-    }
-    else
-    {
-        ll ans = 0;
-        vi countFactors(factors.size(), 0);
-        for (int i = 0; i < n; i++)
+        ld x, d;
+        cin >> x >> d;
+        if (d >= 0)
         {
 
-            ll num = v[i];
-
-            while (num > 1)
-            {
-                ll p = factors[num];
-                countFactors[p]++;
-                ans = max(ans, countFactors[p]);
-                num /= p;
-                while (num % p == 0)
-                    num /= p;
-            }
+            ans += n * x + (n * (n - 1) / 2.0) * d;
         }
+        else if (d == 0)
+            ans += n * x;
+        else
+        {
 
-        cout << n - ans << endl;
+            ans += n * x;
+            ld u = (n - 1) / 2;
+            ans += 2 * ((u + 1) * u / 2.0) * d;
+            if (n % 2 == 0)
+                ans += (n / 2.0) * d;
+        }
     }
+    cout << fixed << setprecision(20) << (ld)ans / n * 1.0 << endl;
     return 0;
 }
