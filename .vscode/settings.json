@@ -5,6 +5,7 @@
         "*.js": "javascriptreact",
         "iostream": "cpp",
         "initializer_list": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "string": "cpp"
     }
 }
