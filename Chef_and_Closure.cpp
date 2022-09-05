@@ -84,9 +84,26 @@ int main(int argc, char const *argv[])
         vi v(n);
         for (auto &it : v)
             cin >> it;
+        mp<ll, ll> m;
+        ll bc = 0;
+        for (auto it : v)
+        {
+            m[it]++;
+            bc += (it < -1 or it > 1);
+        }
 
-
-        
+        if (bc >= 2)
+            cout << 0 << endl;
+        else if (bc == 1 and m[-1])
+            cout << 0 << endl;
+        else if (bc == 1 and m[-1] == 0)
+            cout << 1 << endl;
+        else if (m[-1] >= 2 and m[1] > 0)
+            cout << 1 << endl;
+        else if (m[-1] >= 2 and m[1] == 0)
+            cout << 0 << endl;
+        else
+            cout << 1 << endl;
     }
     return 0;
 }
