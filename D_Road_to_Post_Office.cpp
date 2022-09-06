@@ -74,23 +74,40 @@ void file_i_o()
 
 int main(int argc, char const *argv[])
 {
-    // file_i_o();
-
-    ll ap, bp, av, bv;
-    cin >> ap >> bp >> av >> bv;
-
-    ll minp = ap + bp;
-    ll minv = max(av, bv);
-    bool p;
-    if (minp <= minv)
-        p = true;
-    else if (ap <= av and bp <= bv)
+    file_i_o();
+    ll total, k, a, b, t;
+    cin >> total >> k >> a >> b >> t;
+    ll ans = a * total + t * ((total - 1) / k);
+    ll low = 1, high = total / k;
+    auto fun = [&](ll dis)
     {
-        p = true;
-    }
-    else
-        p = false;
+        ll time = a * dis + t * ((dis - 1) / k);
+        if (dis < total)
+        {
+            time += b * (total - dis);
+        }
+        ans = min(ans, time);
+        return time;
+    };
+    while (low <= high)
+    {
+        ll mid = mid(low, high);
 
-    cout << (p ? "Polycarp" : "Vasiliy");
+        ll dis = mid * k;
+        ll dis2 = (mid + 1) * k;
+
+        ll cardisTime = fun(dis);
+        ll oneMoreCarDisTime = fun(dis2);
+        if (cardisTime > oneMoreCarDisTime)
+        {
+            low = mid + 1;
+        }
+        else
+        {
+            high = mid - 1;
+        }
+    }
+    ans = min(ans, fun(low * k));
+    cout << ans << endl;
     return 0;
 }
