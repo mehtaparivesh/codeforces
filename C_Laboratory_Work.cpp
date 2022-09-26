@@ -78,26 +78,48 @@ int main(int argc, char const *argv[])
     ll n;
     cin >> n;
     vi v(n);
+
     for (auto &it : v)
         cin >> it;
-    vi arr;
-    ll mx = *max_element(v.begin(), v.end());
     ll mn = *min_element(v.begin(), v.end());
-    if (mx - mn <= 1)
+    ll mx = *max_element(v.begin(), v.end());
+    if (mx - mn == 0 or mx - mn == 1)
     {
         cout << n << endl;
-        for (auto it : v)
-            cout << it << " ";
-        cout << endl;
+        logarr(v, 0, n - 1);
+        return 0;
+    }
+    ll a = 0, b = 0, c = 0;
+
+    for (auto it : v)
+    {
+        if (it == mn)
+            a++;
+        else if (it == mx)
+            b++;
+        else if (it == mn + 1)
+            c++;
+    }
+    ll rminmax = min(a, b);
+    ll rx = c / 2;
+    ll ai, bi, ci;
+    if (rminmax >= rx)
+    {
+        ai = a - rminmax;
+        bi = b - rminmax;
+        ci = c + 2 * rminmax;
     }
     else
     {
+        ai = a + rx;
+        bi = b + rx;
+        ci = c - 2 * rx;
+    }
+    cout << min(a, ai) + min(b, bi) + min(ci, c) << endl;
+    loop(i, 0, ai - 1) cout << mn << " ";
+    loop(i, 0, bi - 1) cout << mx << " ";
+    loop(i, 0, ci - 1) cout << mn + 1 << " ";
+    // logarr(v, 0, n - 1);
 
-        sort(v.begin(), v.end());
-        arr = v;
-        ll i = 0, j = n - 1;
-        ll ans = n;
-        ump<ll, ll> m1, m2;
-        for (auto it : v)
-        {
-            m1[it]++;
+    return 0;
+}

@@ -97,7 +97,6 @@ int main(int argc, char const *argv[])
 
         while (temp)
         {
-
             exponent += (temp / p);
             temp /= p;
         }
