@@ -72,36 +72,38 @@ void file_i_o()
 #endif
 }
 
+void solve(ll l, ll r, ll asf, ll d, bool isRight)
+{
+
+    if (l == r)
+    {
+        cout << asf << endl;
+        return;
+    }
+
+    ll mid = (l + r) / 2;
+    if (isRight)
+    {
+        if (d > mid)
+            solve(mid + 1, r, asf + r - l + 1, d, true);
+        else
+            solve(l, mid, asf + 1, d, false);
+    }
+    else
+    {
+        if (d > mid)
+            solve(mid + 1, r, asf + 1, d, true);
+        else
+            solve(l, mid, asf + r - l + 1, d, false);
+    }
+}
 int main(int argc, char const *argv[])
 {
     file_i_o();
-    string a, b;
-    cin >> a >> b;
-    ll b1 = 0;
-    ll a1 = 0;
-    ll ans = 0;
-    for (int i = 0; i < b.size(); i++)
-    {
-        b1 += b[i] == '1';
-    }
-    for (int i = 0; i < b.size(); i++)
-    {
-        a1 += a[i] == '1';
-    }
-    ans += a1 % 2 == b1 % 2;
-
-    ll i = 0, j = b.size() - 1;
-    while (j + 1 < a.size())
-    {
-        if (a[i] == '1')
-            a1--;
-        i++;
-        j++;
-        if (a[j] == '1')
-            a1++;
-        ans += a1 % 2 == b1 % 2;
-    }
-    cout << ans << endl;
+    ll h, n;
+    cin >> h >> n;
+    vi v(52, 0);
+    solve(1, 1ll << h, 0, n, true);
 
     return 0;
 }

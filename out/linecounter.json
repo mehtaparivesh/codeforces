@@ -1,0 +1,1293 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "d:\\programming\\codeforces",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2022-09-27 18:25:47",
+            "filesum": 199,
+            "codesum": 6611,
+            "commentsum": 295,
+            "blanksum": 445,
+            "statistics": {
+                ".cpp": {
+                    "code": 6478,
+                    "comment": 295,
+                    "blank": 445
+                },
+                ".stackdump": {
+                    "code": 64,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".prob": {
+                    "code": 66,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".txt": {
+                    "code": 3,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.A_About_Bacteria.cpp_66979060461c5d0c392281a656664a85.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.A_Chip_Game.cpp_d3c9b7069a8a48d7563aa78eb22ce95b.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.A_Domino.cpp_4195d8d0b410b4c6e63ddb2e66b9851d.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.A_Enlarge_GCD.cpp_c68a76c9333606da29ed4f9f3b594a37.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.A_Guest_From_the_Past.cpp_5ec3b4ea35ca9142527e0fa067b59e47.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.A_Hilbert_s_Hotel.cpp_2eb7ca7a05870a0f6615f38f67a12f50.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.A_Mafia.cpp_37e54be07efe0c4b2647e956a8b06e93.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.A_Nezzar_and_Board.cpp_7bf9b6655ec5719660b41b641dc9262d.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.A_Orac_and_LCM.cpp_14d9753d7d1b4bea44b093509206c89e.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.A_Row_GCD.cpp_5ed2e532d443383d7c6f36ce9119107f.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_AquaMoon_and_Chess.cpp_677d375b89d380dca5bf10ff5f8b3af7.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Cells_Not_Under_Attack.cpp_2604e23bddaab58fecef00ff9d73fdd4.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Continued_Fractions.cpp_6984cf2dfeb4d6d567dd0d356e9e2803.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Divisiblity_of_Differences.cpp_52a509bc41ec3ca851c66d1660e7a57e.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Easy_Number_Challenge.cpp_02bdaaaa38a2d612a18faaa2002e702f.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Equal_Rectangles.cpp_d4b7f3e8826beea5f2dbe3dc872a1c10.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Infinite_Prefixes.cpp_72ee54e3746666bfedac1351f0b3cd6c.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Jumps.cpp_93379b44c6f73a0fb216aff51f48c8a1.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_LCM.cpp_c183d919785f89cb799443d5d0a4f4f1.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Mathematical_Circus.cpp_86004350f0d62eb63ef52ca3e4186396.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Minimum_number_of_steps.cpp_349bf0db89ca2d26542a494cb06dd02d.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Pipeline.cpp_05d679c3de5a20ebef45b5d4f36e3c32.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Position_in_Fraction.cpp_144a10e803e25b6a799ceb5c7ad70370.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Random_Teams.cpp_dd9c00bdcd15c8461c7fad0c358a8d74.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.B_Same_Parity_Summands.cpp_2a4431fba4a6ceb0662effe73a848572.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_1_k-LCM_easy_version.cpp_3912dc2fd1c31459098c36ad624c6590.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_2_k-LCM_hard_version.cpp_c6f0b2def8e1288cf2ac389b02bf176e.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Annoying_Present.cpp_ec8e2df9baa7543376883d0ffa01371f.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Array_Product.cpp_304cde1600618289e364233fc566e81b.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Board_Game.cpp_720540538908a322683756bfaf906eb2.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Celex_Update.cpp_dc21cb48086f947685ceb11d8c28e615.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Circle_of_Monsters.cpp_a8417708446416acf8eb4cd6ea2a702a.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Fighting_Tournament.cpp_e4d742528743269f83a3514384025790.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Find_Pair.cpp_dac2abe14d1b1c4f1c0ba0ce3373b1af.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Good_Subarrays.cpp_edc83f97ef277f697dfb89449bee2338.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Guess_Your_Way_Out.cpp_ffc7d66480c17d7b5538782676c192aa.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Infinite_Fence.cpp_3fc226d45a74c74ddcd0a06ecd28179d.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_K-th_Not_Divisible_by_n.cpp_edd6dd2f37f64ca0dfcdcb609dc47f16.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Laboratory_Work.cpp_b6bd543ebbb20d197e7196ce09293962.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Polo_the_Penguin_and_XOR_operation.cpp_b33e9187c8e0a6499e8c3013f87c31ce.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Primes_and_Multiplication.cpp_731dc1135515598302dbadb42a9cff4e.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Product_of_Three_Numbers.cpp_890b4fd9b625bed6cb627c2333e23254.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Pythagorean_Triples.cpp_06dab1ac29b340a9d76177c31f7cd7fd.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Sequence_Transformation.cpp_6c3a513123ccc24b73fa7b0abb765a7f.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Vus_the_Cossack_and_Strings.cpp_0e4e6e8d2802cdbd3dc4299762c714c8.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Yet_Another_Array_Restoration.cpp_39a6b1049d1c1f920dd58d903363f0c3.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.C_Yet_Another_Counting_Problem.cpp_cf75e61f2cf97a72442a8482c87c05f7.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.Chef_and_Closure.cpp_4e6ceb5dea2fbc25972f86f7dcc662b9.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.D_Add_to_Neighbour_and_Remove.cpp_012c5cf4a41119ffe6ac51e7c0a495f3.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.D_Almost_All_Divisors.cpp_84959d2fa743fc672b79f64d32979782.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.D_Buying_Shovels.cpp_c62903f82c392ca9e0c485bf3033a4bd.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.D_Count_the_Arrays.cpp_d5c2f2e6c2295b225591f9e3c3e616e6.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.D_Permutations.cpp_da45f4a4ed8506999fdd0df115852e9d.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.D_Road_to_Post_Office.cpp_972b7c2f55fedb72a659857ba1526447.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.D_Sea_Battle.cpp_44145f51715a2af7dcd8c0cefd9c2fff.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.D_Social_Circles.cpp_f50c916b84491f9401beaa309f7f0bdd.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.D_Taxes.cpp_ac330d714213bd43acecc1fe00cf00f0.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.E_1_Square-free_division_easy_version.cpp_e8a1866c7affeabae92bfc0a7f9d2a34.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.E_Binary_Numbers_AND_Sum.cpp_7d6d013311318413dbe6077b86b6ab6e.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.E_Bus_Video_System.cpp_69207a06c418ce29f1cc537024a8ebf8.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.E_Permutation_by_Sum.cpp_f404fd5e6c764b636ed64cd8b6317482.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.E_Points.cpp_9b931f9c5872115417a08bcd9f16d4c0.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.E_Two_Arrays_and_Sum_of_Functions.cpp_33f3d35020d6b480f933ce86c915f856.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.J_Just_Arrange_the_Icons.cpp_72a5f5f16b4b20461acdb46e0e4933b5.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.Remove_One_Element.cpp_1d0cf1640072a100b0385dff2f65b0cc.prob"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".cph\\.Truck_Transportation_Problem.cpp_7a9f6385f102892a58d07fbaaa67738f.prob"
+                },
+                {
+                    "blank": 6,
+                    "code": 94,
+                    "comment": 3,
+                    "filename": "A_About_Bacteria.cpp"
+                },
+                {
+                    "filename": "A_About_Bacteria.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 83,
+                    "comment": 3,
+                    "filename": "A_Chip_Game.cpp"
+                },
+                {
+                    "filename": "A_Chip_Game.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 9,
+                    "code": 97,
+                    "comment": 3,
+                    "filename": "A_Domino.cpp"
+                },
+                {
+                    "filename": "A_Domino.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 9,
+                    "code": 126,
+                    "comment": 3,
+                    "filename": "A_Enlarge_GCD.cpp"
+                },
+                {
+                    "filename": "A_Enlarge_GCD.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 10,
+                    "code": 94,
+                    "comment": 3,
+                    "filename": "A_Guest_From_the_Past.cpp"
+                },
+                {
+                    "filename": "A_Guest_From_the_Past.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 97,
+                    "comment": 3,
+                    "filename": "A_Hilbert_s_Hotel.cpp"
+                },
+                {
+                    "filename": "A_Hilbert_s_Hotel.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 88,
+                    "comment": 3,
+                    "filename": "A_Mafia.cpp"
+                },
+                {
+                    "filename": "A_Mafia.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 90,
+                    "comment": 3,
+                    "filename": "A_Nezzar_and_Board.cpp"
+                },
+                {
+                    "filename": "A_Nezzar_and_Board.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 11,
+                    "code": 92,
+                    "comment": 49,
+                    "filename": "A_Orac_and_LCM.cpp"
+                },
+                {
+                    "filename": "A_Orac_and_LCM.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "A_Orac_and_LCM.exe.stackdump"
+                },
+                {
+                    "blank": 7,
+                    "code": 89,
+                    "comment": 3,
+                    "filename": "A_Row_GCD.cpp"
+                },
+                {
+                    "filename": "A_Row_GCD.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 96,
+                    "comment": 4,
+                    "filename": "B_AquaMoon_and_Chess.cpp"
+                },
+                {
+                    "filename": "B_AquaMoon_and_Chess.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 103,
+                    "comment": 3,
+                    "filename": "B_Cells_Not_Under_Attack.cpp"
+                },
+                {
+                    "filename": "B_Cells_Not_Under_Attack.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 79,
+                    "comment": 3,
+                    "filename": "B_Continued_Fractions.cpp"
+                },
+                {
+                    "blank": 7,
+                    "code": 95,
+                    "comment": 3,
+                    "filename": "B_Divisiblity_of_Differences.cpp"
+                },
+                {
+                    "filename": "B_Divisiblity_of_Differences.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 9,
+                    "code": 103,
+                    "comment": 3,
+                    "filename": "B_Easy_Number_Challenge.cpp"
+                },
+                {
+                    "filename": "B_Easy_Number_Challenge.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 10,
+                    "code": 103,
+                    "comment": 3,
+                    "filename": "B_Equal_Rectangles.cpp"
+                },
+                {
+                    "filename": "B_Equal_Rectangles.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 112,
+                    "comment": 3,
+                    "filename": "B_Infinite_Prefixes.cpp"
+                },
+                {
+                    "filename": "B_Infinite_Prefixes.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 89,
+                    "comment": 3,
+                    "filename": "B_Jumps.cpp"
+                },
+                {
+                    "filename": "B_Jumps.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 85,
+                    "comment": 3,
+                    "filename": "B_LCM.cpp"
+                },
+                {
+                    "filename": "B_LCM.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "B_LCM.exe.stackdump"
+                },
+                {
+                    "blank": 8,
+                    "code": 108,
+                    "comment": 3,
+                    "filename": "B_Mathematical_Circus.cpp"
+                },
+                {
+                    "filename": "B_Mathematical_Circus.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 92,
+                    "comment": 3,
+                    "filename": "B_Minimum_number_of_steps.cpp"
+                },
+                {
+                    "filename": "B_Minimum_number_of_steps.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 9,
+                    "code": 98,
+                    "comment": 3,
+                    "filename": "B_Pipeline.cpp"
+                },
+                {
+                    "filename": "B_Pipeline.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 98,
+                    "comment": 3,
+                    "filename": "B_Position_in_Fraction.cpp"
+                },
+                {
+                    "filename": "B_Position_in_Fraction.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 64,
+                    "comment": 3,
+                    "filename": "B_Random_Teams.cpp"
+                },
+                {
+                    "filename": "B_Random_Teams.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 119,
+                    "comment": 3,
+                    "filename": "B_Same_Parity_Summands.cpp"
+                },
+                {
+                    "filename": "B_Same_Parity_Summands.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 95,
+                    "comment": 3,
+                    "filename": "C_1_k-LCM_easy_version.cpp"
+                },
+                {
+                    "filename": "C_1_k-LCM_easy_version.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 105,
+                    "comment": 3,
+                    "filename": "C_2_k-LCM_hard_version.cpp"
+                },
+                {
+                    "filename": "C_2_k-LCM_hard_version.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 95,
+                    "comment": 3,
+                    "filename": "C_Annoying_Present.cpp"
+                },
+                {
+                    "filename": "C_Annoying_Present.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 12,
+                    "code": 115,
+                    "comment": 3,
+                    "filename": "C_Array_Product.cpp"
+                },
+                {
+                    "filename": "C_Array_Product.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "C_Array_Product.exe.stackdump"
+                },
+                {
+                    "blank": 7,
+                    "code": 85,
+                    "comment": 4,
+                    "filename": "C_Board_Game.cpp"
+                },
+                {
+                    "filename": "C_Board_Game.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 80,
+                    "comment": 3,
+                    "filename": "C_Celex_Update.cpp"
+                },
+                {
+                    "filename": "C_Celex_Update.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 92,
+                    "comment": 3,
+                    "filename": "C_Circle_of_Monsters.cpp"
+                },
+                {
+                    "filename": "C_Circle_of_Monsters.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 9,
+                    "code": 136,
+                    "comment": 3,
+                    "filename": "C_Fighting_Tournament.cpp"
+                },
+                {
+                    "filename": "C_Fighting_Tournament.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 8,
+                    "code": 90,
+                    "comment": 27,
+                    "filename": "C_Find_Pair.cpp"
+                },
+                {
+                    "filename": "C_Find_Pair.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 92,
+                    "comment": 3,
+                    "filename": "C_Good_Subarrays.cpp"
+                },
+                {
+                    "filename": "C_Good_Subarrays.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 74,
+                    "comment": 3,
+                    "filename": "C_Guess_Your_Way_Out.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 88,
+                    "comment": 4,
+                    "filename": "C_Infinite_Fence.cpp"
+                },
+                {
+                    "filename": "C_Infinite_Fence.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 94,
+                    "comment": 3,
+                    "filename": "C_K-th_Not_Divisible_by_n.cpp"
+                },
+                {
+                    "filename": "C_K-th_Not_Divisible_by_n.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 114,
+                    "comment": 4,
+                    "filename": "C_Laboratory_Work.cpp"
+                },
+                {
+                    "filename": "C_Laboratory_Work.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 9,
+                    "code": 103,
+                    "comment": 7,
+                    "filename": "C_Polo_the_Penguin_and_XOR_operation.cpp"
+                },
+                {
+                    "filename": "C_Polo_the_Penguin_and_XOR_operation.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "C_Polo_the_Penguin_and_XOR_operation.exe.stackdump"
+                },
+                {
+                    "blank": 6,
+                    "code": 100,
+                    "comment": 3,
+                    "filename": "C_Primes_and_Multiplication.cpp"
+                },
+                {
+                    "filename": "C_Primes_and_Multiplication.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 107,
+                    "comment": 3,
+                    "filename": "C_Product_of_Three_Numbers.cpp"
+                },
+                {
+                    "filename": "C_Product_of_Three_Numbers.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 94,
+                    "comment": 3,
+                    "filename": "C_Pythagorean_Triples.cpp"
+                },
+                {
+                    "blank": 11,
+                    "code": 105,
+                    "comment": 3,
+                    "filename": "C_Sequence_Transformation.cpp"
+                },
+                {
+                    "filename": "C_Sequence_Transformation.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 98,
+                    "comment": 3,
+                    "filename": "C_Vus_the_Cossack_and_Strings.cpp"
+                },
+                {
+                    "filename": "C_Vus_the_Cossack_and_Strings.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 72,
+                    "comment": 3,
+                    "filename": "C_Yet_Another_Array_Restoration.cpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 100,
+                    "comment": 3,
+                    "filename": "C_Yet_Another_Counting_Problem.cpp"
+                },
+                {
+                    "filename": "C_Yet_Another_Counting_Problem.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 101,
+                    "comment": 3,
+                    "filename": "Chef_and_Closure.cpp"
+                },
+                {
+                    "filename": "Chef_and_Closure.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 116,
+                    "comment": 4,
+                    "filename": "D_Add_to_Neighbour_and_Remove.cpp"
+                },
+                {
+                    "filename": "D_Add_to_Neighbour_and_Remove.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 99,
+                    "comment": 3,
+                    "filename": "D_Almost_All_Divisors.cpp"
+                },
+                {
+                    "filename": "D_Almost_All_Divisors.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 92,
+                    "comment": 3,
+                    "filename": "D_Buying_Shovels.cpp"
+                },
+                {
+                    "filename": "D_Buying_Shovels.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 77,
+                    "comment": 3,
+                    "filename": "D_Count_the_Arrays.cpp"
+                },
+                {
+                    "filename": "D_Count_the_Arrays.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 104,
+                    "comment": 3,
+                    "filename": "D_Permutations.cpp"
+                },
+                {
+                    "filename": "D_Permutations.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 104,
+                    "comment": 3,
+                    "filename": "D_Road_to_Post_Office.cpp"
+                },
+                {
+                    "filename": "D_Road_to_Post_Office.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 72,
+                    "comment": 3,
+                    "filename": "D_Sea_Battle.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 91,
+                    "comment": 4,
+                    "filename": "D_Social_Circles.cpp"
+                },
+                {
+                    "filename": "D_Social_Circles.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 13,
+                    "code": 110,
+                    "comment": 3,
+                    "filename": "D_Taxes.cpp"
+                },
+                {
+                    "filename": "D_Taxes.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 10,
+                    "code": 108,
+                    "comment": 3,
+                    "filename": "E_1_Square-free_division_easy_version.cpp"
+                },
+                {
+                    "filename": "E_1_Square-free_division_easy_version.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 94,
+                    "comment": 3,
+                    "filename": "E_Binary_Numbers_AND_Sum.cpp"
+                },
+                {
+                    "filename": "E_Binary_Numbers_AND_Sum.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 88,
+                    "comment": 3,
+                    "filename": "E_Bus_Video_System.cpp"
+                },
+                {
+                    "filename": "E_Bus_Video_System.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 95,
+                    "comment": 3,
+                    "filename": "E_Permutation_by_Sum.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 99,
+                    "comment": 3,
+                    "filename": "E_Points.cpp"
+                },
+                {
+                    "filename": "E_Points.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 93,
+                    "comment": 3,
+                    "filename": "E_Two_Arrays_and_Sum_of_Functions.cpp"
+                },
+                {
+                    "filename": "E_Two_Arrays_and_Sum_of_Functions.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "input.txt"
+                },
+                {
+                    "blank": 11,
+                    "code": 120,
+                    "comment": 3,
+                    "filename": "J_Just_Arrange_the_Icons.cpp"
+                },
+                {
+                    "filename": "J_Just_Arrange_the_Icons.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "output.txt"
+                },
+                {
+                    "blank": 5,
+                    "code": 111,
+                    "comment": 3,
+                    "filename": "Remove_One_Element.cpp"
+                },
+                {
+                    "filename": "Remove_One_Element.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 95,
+                    "comment": 3,
+                    "filename": "tempCodeRunnerFile.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 81,
+                    "comment": 17,
+                    "filename": "Truck_Transportation_Problem.cpp"
+                },
+                {
+                    "filename": "Truck_Transportation_Problem.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                }
+            ]
+        }
+    ]
+}
