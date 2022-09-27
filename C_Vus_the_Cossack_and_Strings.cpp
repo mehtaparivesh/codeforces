@@ -101,7 +101,7 @@ int main(int argc, char const *argv[])
             a1++;
         ans += a1 % 2 == b1 % 2;
     }
-    cout << ans << endl;
 
+    cout << ans << endl;
     return 0;
 }
